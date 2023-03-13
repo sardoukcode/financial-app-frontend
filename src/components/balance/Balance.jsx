@@ -26,7 +26,7 @@ function Balance() {
       options={options}
       width={"260px"}
       height={"260px"}
-      style={{ borderRadius: '1rem' }}
+  
 
     />
  

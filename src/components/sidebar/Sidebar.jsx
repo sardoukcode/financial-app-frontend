@@ -24,7 +24,7 @@ function Sidebar() {
           <BsCircleFill className="color2" />
           <BsCircleFill className="color3" />
         </div>
-        <div> <img src={profilepic} alt="" /> 
+        <div> <img src={profilepic} alt="" className="image-sidebar"/> 
         <p>Full Name</p>
         </div>
 

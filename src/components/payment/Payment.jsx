@@ -4,6 +4,7 @@ import './Payment.css'
 
 function Payment() {
   return(
+    <div className="main-page-payments">
   <div className="main-payments">
     {/* FIRST SECTION  */}
    <div className="all-invoice-payments">
@@ -62,6 +63,7 @@ function Payment() {
    
    </div>
 
+   </div>
    </div>
    );
 }

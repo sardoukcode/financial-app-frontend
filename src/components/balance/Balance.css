@@ -1,19 +1,22 @@
 .Main-page-balance {
   margin-top: 6rem;
-  
+}
+#reactgooglegraph-1 > div > div:nth-child(1) > div > svg > rect {
+  fill: none;
+  background-color: white; 
 
 }
 
 .sales {
   color: black;
   width: 100%;
+  border-radius: 2rem;
 }
 
 .sales__details {
   display: flex;
   justify-content: space-between;
   margin: 1rem 0;
-  
 }
 .sales__graph {
   height: 10rem;
@@ -24,9 +27,12 @@
   display: flex;
   gap: 1rem;
 }
-.expenses__graph{
+.expenses__graph {
   margin-left: 3rem;
-  
-  
 }
-
+.expenses__graph {
+  background-color: white;
+  border-radius: 2rem;
+  
+  border-radius: 2rem;
+}

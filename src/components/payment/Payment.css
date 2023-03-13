@@ -4,23 +4,28 @@
   margin: 0;
 
   box-sizing: border-box;
+
 }
+
 
 .main-payments {
   padding-left: 140px;
   padding-top: 100px;
+  /* background-color: rgb(230, 166, 230); */
+
+
 }
 
 .all-invoice-payments {
   width: 80%;
-  background-color: rgb(230, 166, 230);
+  background-color: white;
   height: 250px;
 }
 .other-income-payments {
   margin-top: 50px;
 
   width: 80%;
-  background-color: rgb(230, 166, 230);
+  background-color: white;
   height: 250px;
 }
 
