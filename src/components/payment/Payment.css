@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+.main-payments {
+  padding-left: 140px;
+  padding-top: 100px;
+}
+
+.all-invoice-payments {
+  width: 80%;
+  background-color: rgb(230, 166, 230);
+  height: 250px;
+}
+.other-income-payments {
+  margin-top: 50px;
+
+  width: 80%;
+  background-color: rgb(230, 166, 230);
+  height: 250px;
+}
+
+/* PLUS BUTTOM */
+
+.plus-button {
+  margin-top: -20px;
+  margin-left: 10px;
+  /* display: inline-block; */
+  width: 24px;
+  height: 24px;
+  position: relative;
+  border: 2px solid black;
+  /* border-radius: 50%; */
+  cursor: pointer;
+  background-color: rgb(234, 102, 234);
+}
+.plus-button::before,
+.plus-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 2px;
+  background-color: black;
+  transform: translate(-50%, -50%);
+}
+.plus-button::before {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.plus-button::hover {
+  top: -10px;
+}
+/* PLUS BUTTOM */
+
+/* first section*/
+.all-invoice-flex {
+  display: flex;
+}
+.all-column {
+  display: flex;
+  flex-direction: column;
+}
+.all-column > div {
+  margin: 10px 75px;
+}
